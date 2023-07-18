@@ -1,0 +1,7 @@
+# ZSA: Z80 Standard Architecture
+
+This proposal will outline the physical, electrical, and software requirements for a community-owned, open-source hardware, 3.3V logic level DIY computer architecture, built around Z80 and compatible CPUs. Inspired by, and physically similar to, the Industry Standard Architecture, or ISA, bus, this bus will serve the same purpose for new, Z80-based DIY computer systems: provide an open standard to which any and all participants are welcome.
+
+The inspiration and motivation behind this proposal is, simply put, the current reality facing computer hobbyists: 5V parts are becoming harder to find, while 3.3V parts are plentiful, inexpensive, and far more broad in their natures and selection. Moving from a 5V standard logic to 3.3V opens up a new world of potential, enabling the use not only of more modern surface-mount logic and memory and processor devices, but CPLDs, FPGAs, microcontrollers, and specialized ASICs which all default to 3.3V logic levels.
+The goal of this proposal is to design and implement a 3.3V standard for DIY computer kits and accessories, one which will enable the use of all the above components, and many more than can be enumerated here, as well as enable the use of modern, high-quality, economical PCB fabrication and population facilities provided to the modern hobbyist by such services as PCBWAY and JLCPCB, among others.
+Such a standard will also enable small businesses and craftspeople, such as might be found among the sellers on Tindie, to build original products for a common platform.
